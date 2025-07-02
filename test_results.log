@@ -1,0 +1,117 @@
+Test case 001: PASSED
+Test case 002: PASSED
+Test case 003: PASSED
+Test case 004: PASSED
+Test case 005: PASSED
+Test case 010: PASSED
+Test case 011: PASSED
+Test case 101: PASSED
+Test case 102: PASSED
+Test case 103: PASSED
+Test case 104: PASSED
+Test case 105: PASSED
+Test case 106: PASSED
+Test case 107: PASSED
+Test case 108: PASSED
+Test case 109: PASSED
+Test case 110: PASSED
+Test case 111: PASSED
+Test case 112: PASSED
+Test case 113: PASSED
+Test case 114: PASSED
+Test case 115: PASSED
+Test case 116: PASSED
+Test case 117: PASSED
+Test case 120: PASSED
+Test case 130: PASSED
+Test case 131: PASSED
+Test case 140: PASSED
+Test case 150: PASSED
+Test case 151: PASSED
+Test case 152: PASSED
+Test case 153: PASSED
+Test case 154: PASSED
+Test case 200: PASSED
+Test case 210: PASSED
+Test case 211: PASSED
+Test case 220: PASSED
+Test case 222: PASSED
+Test case 225: PASSED
+Test case 230: PASSED
+Test case 232: PASSED
+Test case 234: PASSED
+Test case 235: FAILED
+Differences:
+----------------------
+Expected:
+[[1, 2, 3]]----------------------
+Generated:
+[1, 2, 3]
+----------------------
+Test case 240: PASSED
+Test case 242: PASSED
+Test case 243: PASSED
+Test case 250: PASSED
+Test case 252: PASSED
+Test case 260: PASSED
+Test case 300: PASSED
+Test case 301: PASSED
+Test case 302: ERROR (Prolog execution failed)
+Test case 303: PASSED
+Test case 304: PASSED
+Test case 305: FAILED
+Differences:
+----------------------
+Expected:
+[[6, 8], [10, 12]]----------------------
+Generated:
+["[1[5", "2]6]", "[3[7", "4]8]"]
+----------------------
+Test case 306: PASSED
+Test case 307: PASSED
+Test case 308: PASSED
+Test case 309: FAILED
+Differences:
+----------------------
+Expected:
+[[1, 4], [2, 5], [3, 6]]----------------------
+Generated:
+["[1", 2, "3]", "[4", 5, "6]"]
+----------------------
+Test case 310: PASSED
+Test case 311: FAILED
+Differences:
+----------------------
+Expected:
+{2 | x0 x1 *}----------------------
+Generated:
+----------------------
+Test case 312: PASSED
+Test case 313: PASSED
+Test case 314: PASSED
+Test case 315: PASSED
+Test case 316: PASSED
+Test case 317: FAILED
+Differences:
+----------------------
+Expected:
+[10, "foo,bar", 20]
+[10, "foo,bar", 20]----------------------
+Generated:
+[10, ""foo", "bar"", 20]
+[10, ""foo", "bar"", 20]
+----------------------
+Test case 318: FAILED
+Differences:
+----------------------
+Expected:
+5----------------------
+Generated:
+25
+----------------------
+
+Prolog Test Summary:
+Passed: 61
+Failed: 7
+Skipped: 0
+Total: 68
